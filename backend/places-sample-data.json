@@ -1,0 +1,838 @@
+{
+    "html_attributions": [],
+    "next_page_token": "CsQCOAEAAKv708RN8cSfzFFiRiT3bqn4_rVSdMqTtnXC0vY9EH2iUb8DIHgGWWQc8FOXIGEyLOnJThzmaLezkaBgN_vRd76eTNEpIuHY0yHhZ-NP08PXDzjBc5Mce7AE6Pg0tcqdjUs_-JRc8jqRED8kiklE_Mw0Knhl7xiwWsRGzNdlr8C5kJ0If-G3FdP_VZYM2jGaRiKXdG7GkZaqf3uFFy2flaupq-2frymNQzG7GyGxtf-oTm02KQtWJM0tzs2t9Q-Gk6d5Ti_vcoNh4ioGWdAXRfNeXDbt8TtN5px6yLu7W1R8-ki84MPXj84yx5Hi6TsR4T8jh3xHS_Uny9ludgJwpBeoB3Qr-nLnoTr2mxlScDy3NLgIHEMVC6O8Jo9xss8LC8XTMxcqZ7sVksb3UwM9xTeUosbua8CSWhBOwCxsexvHEhDSax_AusYRC_7sbsG0uMPXGhRFf7VwtiL8G_1rCxUJLdcs0RM2ZA",
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.8025627,
+                    "lng": 100.5389495
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.80391252989272,
+                        "lng": 100.5402993298927
+                    },
+                    "southwest": {
+                        "lat": 13.80121287010728,
+                        "lng": 100.5375996701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "4ce740a11c7d2080770de36f4c21ccfcf98f5371",
+            "name": "ร้านอาหารตามสั่งพี่ลำไย",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117778293138490535552/photos\">Moo Por</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAAvFpuYPOnUH5fw5fSbGH08KHK6omk8jCkSVlDW7ty-7dJJjmQX-jv2g_dF7olTXTUrZxIO2Dz16W4LpMnBMrT60nbSJOP0z_SejSxZIVFc7_zw-P6Ujl5hGXTfuj84R8EhDelhwVgK6R4gd9AkBiuG_NGhT8SFYhDeEfHaByokRhs3M0ggBcUg",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJhR5AcZOd4jARM2yQS_W632A",
+            "plus_code": {
+                "compound_code": "RG3Q+2H Bangkok",
+                "global_code": "7P52RG3Q+2H"
+            },
+            "rating": 5,
+            "reference": "ChIJhR5AcZOd4jARM2yQS_W632A",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "ตรงข้ามก๋วยจั๊บสามทุ่ม ข้างรถไฟใต้ดินบางซื่อ ทางออก 1 Bang Sue"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.8046197,
+                    "lng": 100.5142563
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.80596962989272,
+                        "lng": 100.5156035798927
+                    },
+                    "southwest": {
+                        "lat": 13.80326997010728,
+                        "lng": 100.5129039201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "3cd95d617d01085096bf669d84a1e7efbd75cf2f",
+            "name": "ป้าแมว อาหารตามสั่ง",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100568803373392525049/photos\">พิตรพิบูล ธนาธิปชัยเกียรติ</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA5LCprRIAEHmX65fFb2NodNr23GtshNjW994bd9nhfoXtx0W5G6SukSJrXniLpj1dyx36Yk5ThXfcBXFlmLxfq0uENXJdfe8BeDItm8lDtFFgBb4zRG6K7O2tG-Js99TYEhAXxiedk-PyIaZCk3hkhZzNGhRvJTEfOr2VjzCs6NinDhF2T5bGQw",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJVzd3OJOb4jARtgtftUcbCmo",
+            "plus_code": {
+                "compound_code": "RG37+RP Bangkok",
+                "global_code": "7P52RG37+RP"
+            },
+            "rating": 5,
+            "reference": "ChIJVzd3OJOb4jARtgtftUcbCmo",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "40 Charan Sanitwong Rd, Bang Ao, Bang Phlat"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.7998076,
+                    "lng": 100.5323961
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.80113557989272,
+                        "lng": 100.5337225298927
+                    },
+                    "southwest": {
+                        "lat": 13.79843592010728,
+                        "lng": 100.5310228701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "1482d6a2c1803f2fcd25ab1a3d7048853f1c515e",
+            "name": "ร้านอาหารตามสั่งป้าเติม",
+            "place_id": "ChIJRxT0VxKd4jAR-NxT9yywUik",
+            "plus_code": {
+                "compound_code": "QGXJ+WX Bangkok",
+                "global_code": "7P52QGXJ+WX"
+            },
+            "rating": 0,
+            "reference": "ChIJRxT0VxKd4jAR-NxT9yywUik",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "เลขที่ 219/22 ซอย ประดู่ ถนน ถนนเตชวนิจ Bang Sue"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.8000459,
+                    "lng": 100.5310551
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.80136502989272,
+                        "lng": 100.5323977798927
+                    },
+                    "southwest": {
+                        "lat": 13.79866537010728,
+                        "lng": 100.5296981201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "c92f649f6e4590fc55db03e64fbb84952411e11c",
+            "name": "ร้านอาหารตามสั่ง ตุ้ย ตรอกประดู่",
+            "opening_hours": {
+                "open_now": false
+            },
+            "place_id": "ChIJPcEFXgqc4jARU46XE3V3JzM",
+            "plus_code": {
+                "compound_code": "RG2J+2C Bangkok",
+                "global_code": "7P52RG2J+2C"
+            },
+            "rating": 3.8,
+            "reference": "ChIJPcEFXgqc4jARU46XE3V3JzM",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 17,
+            "vicinity": "Soi Pradu, Bang Sue"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.8011584,
+                    "lng": 100.5219941
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.80253487989272,
+                        "lng": 100.5233392798927
+                    },
+                    "southwest": {
+                        "lat": 13.79983522010728,
+                        "lng": 100.5206396201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "313d601d3bb0916d85e9ad19c8eee6915e40db33",
+            "name": "น้ำพั้นซ์ ตามสั่ง",
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103345612121719633852/photos\">wachirawit suphap</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA4ni2L9WHxfNjPmYHQngVk9V8MR-XBjHbpux_XtxUM1qzxoux-_FJnQ4crNQ50TIHLk9f7-65pGwzErFksVnzjiBJw2_2OaRrdDstsZqDPXdEq8BzfkzeG8RrkId2H-P6EhA5D97W4Ie0pz6NxMIPTmrTGhRa1Z_N8IST9khl3H83Dv0zrN6G3w",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ2fzfpYub4jARvbnppkRwc7c",
+            "plus_code": {
+                "compound_code": "RG2C+FQ Bangkok",
+                "global_code": "7P52RG2C+FQ"
+            },
+            "rating": 0,
+            "reference": "ChIJ2fzfpYub4jARvbnppkRwc7c",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "เลขที่ 16/8 Wat Pradu Thammathipat Alley, Khwaeng Bang Sue, Bang Sue"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.803895,
+                    "lng": 100.5343741
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.80527577989272,
+                        "lng": 100.5357298298927
+                    },
+                    "southwest": {
+                        "lat": 13.80257612010728,
+                        "lng": 100.5330301701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "396c5a7cd462bde8a0c35237c71483e5f920fdb3",
+            "name": "เจ๊แหมวอาหารตามสั่ง",
+            "place_id": "ChIJMTj54w6d4jARWXamcE7InEk",
+            "plus_code": {
+                "compound_code": "RG3M+HP Bangkok",
+                "global_code": "7P52RG3M+HP"
+            },
+            "rating": 0,
+            "reference": "ChIJMTj54w6d4jARWXamcE7InEk",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "เลขที่ 1 Bang Sue"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.8041417,
+                    "lng": 100.5361703
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.80555002989272,
+                        "lng": 100.5375446298927
+                    },
+                    "southwest": {
+                        "lat": 13.80285037010728,
+                        "lng": 100.5348449701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "485b893a0eee969ea83d4f77db203e7fed24610f",
+            "name": "ร้านอาหารตามสั่งใต้สะพาน",
+            "place_id": "ChIJCV41AGCd4jARi-9SoaB4Ll0",
+            "plus_code": {
+                "compound_code": "RG3P+MF Bangkok",
+                "global_code": "7P52RG3P+MF"
+            },
+            "rating": 0,
+            "reference": "ChIJCV41AGCd4jARi-9SoaB4Ll0",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "เลขที่ 1 หมู่ - หมู่บ้าน ปูนซิเมนต์ไทย ซอย - ถนน ปูนซิเมนต์ไทย Bang Sue"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.8062688,
+                    "lng": 100.5291718
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.80766617989272,
+                        "lng": 100.5305203798927
+                    },
+                    "southwest": {
+                        "lat": 13.80496652010728,
+                        "lng": 100.5278207201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "3b05f4810e550a3b720471f764c125b03fdad59a",
+            "name": "แพรวตามสั่ง รถไฟฟ้าเตาปูน",
+            "photos": [
+                {
+                    "height": 4128,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102035785666051781422/photos\">A Google User</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAwHaW2H1gAPpJo5iu4Trw-sPSjcIjKHyIn4E8oDgHMSWXTi3lwzouVZg4NG0XCOe9Y1GTEfsMamDEvA5kF1rCO4CuIU0zt1jvw_oFXPnlPfFTL1EJZuKNM5Pru09o3zxwEhAh3_ZwG2LqqQ8Q9gIbM8NnGhSakGesdJQtNpsemSBWZLsZcCpk0Q",
+                    "width": 2322
+                }
+            ],
+            "place_id": "ChIJ94sATh2b4jARA4JM6iEsTYE",
+            "plus_code": {
+                "compound_code": "RG4H+GM Bangkok",
+                "global_code": "7P52RG4H+GM"
+            },
+            "rating": 0,
+            "reference": "ChIJ94sATh2b4jARA4JM6iEsTYE",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "เลขที่ 414/5 Pracha Rat Sai 2 Rd, Bang Sue"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.806747,
+                    "lng": 100.5247193
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.80812832989272,
+                        "lng": 100.5260690298927
+                    },
+                    "southwest": {
+                        "lat": 13.80542867010728,
+                        "lng": 100.5233693701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "75b9d6dd34515b22382c3467305f985aee505c62",
+            "name": "ร้านอาหารตามสั่งน้องอะตอม",
+            "place_id": "ChIJF-4gf02b4jARMLfRm0c1Vhc",
+            "plus_code": {
+                "compound_code": "RG4F+MV Bangkok",
+                "global_code": "7P52RG4F+MV"
+            },
+            "rating": 0,
+            "reference": "ChIJF-4gf02b4jARMLfRm0c1Vhc",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "เลขที่ 135/1 หมู่ - หมู่บ้าน - ซอยสิงห์ฤกษ์ Pracha Rat Sai 2 Rd, Bang Sue"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.8071046,
+                    "lng": 100.5261868
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.80845492989272,
+                        "lng": 100.5275202298927
+                    },
+                    "southwest": {
+                        "lat": 13.80575527010728,
+                        "lng": 100.5248205701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "23baf8ca82a1925e425b6a6876a87b7120b24006",
+            "name": "จูน ร้านอาหารตามสั่ง",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 890,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111389934760233310082/photos\">A Google User</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAylepqRVjwch5OoovwtYnF7JIQO2kYwNmSmiEc4J2GE4B2lC49m3UptCxAHDPQpVQqh6KBabQa5rZ-DTMqLt_apU2SZLlwJsV4NTy5QAEUSmwmjIE4q6o45lnCD3PDnuOEhBElTX2eM9s3mjHKU0njLMbGhSQXLFJ_P1PHD6TjtKAIK1H54CNBw",
+                    "width": 890
+                }
+            ],
+            "place_id": "ChIJVVyZ_U-b4jARBHwAa0gPYpI",
+            "plus_code": {
+                "compound_code": "RG4G+RF Bangkok",
+                "global_code": "7P52RG4G+RF"
+            },
+            "rating": 5,
+            "reference": "ChIJVVyZ_U-b4jARBHwAa0gPYpI",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "235/8 Aranya Alley, Khwaeng Bang Sue, Bang Sue"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.8069525,
+                    "lng": 100.5346941
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.80832857989272,
+                        "lng": 100.5360498298927
+                    },
+                    "southwest": {
+                        "lat": 13.80562892010728,
+                        "lng": 100.5333501701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "47db1a16d86cf4917abf27d04a5eecbefacf8657",
+            "name": "ร้านแม่แก้วอาหารตามสั่ง",
+            "place_id": "ChIJn5ny-CKb4jARW-IFYnEBr6U",
+            "plus_code": {
+                "compound_code": "RG4M+QV Bangkok",
+                "global_code": "7P52RG4M+QV"
+            },
+            "rating": 5,
+            "reference": "ChIJn5ny-CKb4jARW-IFYnEBr6U",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "เลขที่ 829 Bang Sue"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.8079207,
+                    "lng": 100.5396728
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.80919817989272,
+                        "lng": 100.5411964298927
+                    },
+                    "southwest": {
+                        "lat": 13.80649852010728,
+                        "lng": 100.5384967701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "d7eb26addca334a5b0ecbf6cda2074dff431a4f4",
+            "name": "จุ๋ม อาหารอิสลามตามสั่ง",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112550377208703108259/photos\">Dusadee Sriswangsuk</a>"
+                    ],
+                    "photo_reference": "CmRZAAAABUVuZWmXP3NjOyDvNCxZXHhBCGCmj_q_Qk23lWIf1estMZVVtc86QbXRo202NosbNjGAGJ6Nr19xopU42lZimi6v8eiZ-PVJkzVS8g-MioeF89ZztWbXBzuspwJg5YfAEhCUOQT9ziYz8L3lga-7J3dDGhQoC3dTwcdkF9Xx1Mbq-IHGwCHLNg",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJI0ocQ6Cd4jARdWWKPFAX2As",
+            "plus_code": {
+                "compound_code": "RG5Q+5V Bangkok",
+                "global_code": "7P52RG5Q+5V"
+            },
+            "rating": 5,
+            "reference": "ChIJI0ocQ6Cd4jARdWWKPFAX2As",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "Rotfai 2 Alley, Bang Sue"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.8140404,
+                    "lng": 100.5233168
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.81542047989272,
+                        "lng": 100.5246544798927
+                    },
+                    "southwest": {
+                        "lat": 13.81272082010728,
+                        "lng": 100.5219548201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "2a0ce6acbd03c7d854ffed4bd5fda31bab95db18",
+            "name": "ร้านน้องเฟิส อาหารตามสั่ง",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3120,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101209934039890602205/photos\">น้องบี พาฝัน</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAVvBDeuTjiBN_CRFTVEVjrVDnbvyh0dseu7xlIeahmF0wmfXvfiP3-qMkwQljSBC8eTUWPGjijuLsjB1NLFTemqCROEz8MRMFgWVpZpX9JyKqZG3qM2eP5YLcT-fsxpjIEhDauK0afxWNYntq9XGEwcYxGhTirUhpujjgWBjVjNn4ddfs1hXj2g",
+                    "width": 4160
+                }
+            ],
+            "place_id": "ChIJ419mT4-b4jAR5LF6MOSzFRA",
+            "plus_code": {
+                "compound_code": "RG7F+J8 Bangkok",
+                "global_code": "7P52RG7F+J8"
+            },
+            "rating": 3,
+            "reference": "ChIJ419mT4-b4jAR5LF6MOSzFRA",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "360/7 ประชาราษฎร์ สาย 1 ซอย 36 ถนนประชาราษฎร์สาย1 Bang Sue"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.8147865,
+                    "lng": 100.5317446
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.81615507989272,
+                        "lng": 100.5330883798927
+                    },
+                    "southwest": {
+                        "lat": 13.81345542010728,
+                        "lng": 100.5303887201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "cf3b7c2a194499fcc9472feecc7c68875489c79e",
+            "name": "ร้านป้าอาหารตามสั่ง สุกี้แห้งอร่อย",
+            "place_id": "ChIJGS96KHic4jARyHywkOlP7tM",
+            "plus_code": {
+                "compound_code": "RG7J+WM Bangkok",
+                "global_code": "7P52RG7J+WM"
+            },
+            "rating": 0,
+            "reference": "ChIJGS96KHic4jARyHywkOlP7tM",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "Krungthep-Nonthaburi 17 Alley, Bang Sue"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.8187572,
+                    "lng": 100.5268415
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.82007697989272,
+                        "lng": 100.5282010798927
+                    },
+                    "southwest": {
+                        "lat": 13.81737732010728,
+                        "lng": 100.5255014201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "2188ad458b85d2f697685945892db6570e0fe44a",
+            "name": "โย อาหารตามสั่ง",
+            "place_id": "ChIJnbDdj1Cb4jAR0Q6Cs2iA2eI",
+            "plus_code": {
+                "compound_code": "RG9G+GP Bangkok",
+                "global_code": "7P52RG9G+GP"
+            },
+            "rating": 0,
+            "reference": "ChIJnbDdj1Cb4jAR0Q6Cs2iA2eI",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "เลขที่ 115 Si Nam Ngoen Alley, Khwaeng Bang Sue, Bang Sue"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.8195991,
+                    "lng": 100.5181833
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.82093307989272,
+                        "lng": 100.5195955798927
+                    },
+                    "southwest": {
+                        "lat": 13.81823342010728,
+                        "lng": 100.5168959201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "f1df51f318d8b28ac9d2596250839e1f51d2139f",
+            "name": "ร้านป้าต่ายตามสั่ง",
+            "place_id": "ChIJEWIRCHOb4jARqoXp7-LWArg",
+            "plus_code": {
+                "compound_code": "RG99+R7 Bangkok",
+                "global_code": "7P52RG99+R7"
+            },
+            "rating": 0,
+            "reference": "ChIJEWIRCHOb4jARqoXp7-LWArg",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "เลขที่ 701 3 Wong Sawang Rd, Bang Sue"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.8185691,
+                    "lng": 100.5387575
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.81992462989272,
+                        "lng": 100.5401392298927
+                    },
+                    "southwest": {
+                        "lat": 13.81722497010728,
+                        "lng": 100.5374395701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "68ba649aea159b6caf89f0556b57538350ea3c9e",
+            "name": "คุณวัน อาหารตามสั่ง",
+            "place_id": "ChIJEU_aSy2d4jARNLEIqX6auqU",
+            "plus_code": {
+                "compound_code": "RG9Q+CG Bangkok",
+                "global_code": "7P52RG9Q+CG"
+            },
+            "rating": 0,
+            "reference": "ChIJEU_aSy2d4jARNLEIqX6auqU",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "จิรภัทร์ แมนชั่น เลขที่ Suan Farang Alley"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.8199662,
+                    "lng": 100.520811
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.82131147989272,
+                        "lng": 100.5221484298927
+                    },
+                    "southwest": {
+                        "lat": 13.81861182010728,
+                        "lng": 100.5194487701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "d779cfa4a074627e0ef542e1e660cd8b96f5e2b0",
+            "name": "ร้านแม่เล็กอาหารตามสั่ง",
+            "opening_hours": {
+                "open_now": false
+            },
+            "place_id": "ChIJfb-BlHaZ4jARhgwMkIC5rnc",
+            "plus_code": {
+                "compound_code": "RG9C+X8 Bangkok",
+                "global_code": "7P52RG9C+X8"
+            },
+            "rating": 5,
+            "reference": "ChIJfb-BlHaZ4jARhgwMkIC5rnc",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "343/2 Wong Sawang 4 Alley, Khwaeng Wong Sawang, Bang Sue"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.8164411,
+                    "lng": 100.5304184
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.81776057989272,
+                        "lng": 100.5317768298927
+                    },
+                    "southwest": {
+                        "lat": 13.81506092010728,
+                        "lng": 100.5290771701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "092caa77b451fb211b6c6718c40c4e2075acfbab",
+            "name": "ร้านตามสั่งคุณสุภาภรณ์",
+            "place_id": "ChIJBfS9v5Wd4jARGagJEpzCLpc",
+            "plus_code": {
+                "compound_code": "RG8J+H5 Bangkok",
+                "global_code": "7P52RG8J+H5"
+            },
+            "rating": 0,
+            "reference": "ChIJBfS9v5Wd4jARGagJEpzCLpc",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "เลขที่ 129 Wat Choeng Wai Alley, Khwaeng Bang Sue, Bang Sue"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 13.8206972,
+                    "lng": 100.5239867
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.82200217989272,
+                        "lng": 100.5253718298927
+                    },
+                    "southwest": {
+                        "lat": 13.81930252010728,
+                        "lng": 100.5226721701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "a7c849b94c61ec621a6051de16dbe7732c797067",
+            "name": "คุณวรรณ อาหารตามสั่ง",
+            "place_id": "ChIJBVxRnvSb4jAR_o01dihb3NY",
+            "plus_code": {
+                "compound_code": "RGCF+7H Bangkok",
+                "global_code": "7P52RGCF+7H"
+            },
+            "rating": 0,
+            "reference": "ChIJBVxRnvSb4jAR_o01dihb3NY",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "เลขที่ 123 Bang Sue"
+        }
+    ],
+    "status": "OK"
+}
