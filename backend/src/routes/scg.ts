@@ -1,5 +1,5 @@
 import express from "express";
-import SCG, { Formula, Place } from '../controllers/scg'
+import SCG, { Formula, Place, LineSendMessage } from '../controllers/scg'
 
 const router = express.Router();
 
@@ -15,7 +15,13 @@ router.get('/formula/:index', function (req, res) {
 })
 
 router.get('/places/:keyword', async function (req, res) {
-    res.send(await Place(req.params.keyword))
+    const places = await Place(req.params.keyword)
+    res.send(places.results)
+})
+
+router.post('/message', async function (req, res) {
+    const status = await LineSendMessage()
+    res.sendStatus(status)
 })
 
 

@@ -7,16 +7,151 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 16px;
   color: white;
+  padding : 30px 0;
 }
 
 .App-link {
   color: #09d3ac;
 }
+
+.nav-link {
+  padding: 0 0 .5rem 0;
+}
+
+a, a:active, a:visited{
+  color: #F1F3F1
+}
+a:hover {
+  color: #FCBA04 
+}
+
+hr {
+  border-top: 2px solid #FCBA04;
+}
+
+code {
+  color: #FCBA04;
+}
+
+.jumbotron {
+  color: #F1F3F1;
+  background-color: #8C93A8;
+}
+
+.card {
+  color: #252323
+}
+
+header {
+  background-color: #800B00;
+  border-bottom: 2px solid #FCBA04;
+  color: #F1F3F1;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.menu-container {
+  position: relative;
+}
+
+.menu-float {
+  position: absolute;
+  top: 100%;
+  right: 20%;
+  background-color: #800B00;
+  border-bottom: 2px solid #FCBA04;
+  border-left: 2px solid #FCBA04;
+  /* border-right: 2px solid #FCBA04; */
+  padding: 0 15px;
+}
+
+.menu-float > #svgright-container {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  height: calc(100% + 2px);
+  overflow: hidden;
+}
+
+.menu-float > #svgright-container::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: calc(-50% - 1px);
+  left: 0;
+  height: 300%;
+  width: 2px;
+  background-color: #FCBA04;
+  transform: rotate(45deg);
+}
+
+.menu-float > #svgright-container > svg {
+  height: 100%
+}
+
+
+footer {
+  background-color: #800B00;
+  border-top: 2px solid #FCBA04;
+  color: #F1F3F1;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.credit-container {
+  position: relative;
+}
+
+.credit-float {
+  position: absolute;
+  bottom: 100%;
+  left: 10%;
+  background-color: #800B00;
+  border-top: 2px solid #FCBA04;
+  border-left: 2px solid #FCBA04;
+  /* border-right: 2px solid #FCBA04; */
+  padding: 0 15px;
+}
+
+.credit-float > #svgleft-container {
+  display: block;
+  position: absolute;
+  top: -2px;
+  left: 100%;
+  height: calc(100% + 2px);
+  overflow: hidden;
+}
+
+.credit-float > #svgleft-container::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: calc(-150% + 1px);
+  left: 0;
+  height: 300%;
+  width: 2px;
+  background-color: #FCBA04;
+  transform: rotate(-45deg);
+}
+
+.credit-float > #svgleft-container > svg {
+  height: 100%
+}
+
+.content {
+  background-color: rgba(140, 147, 168, 0.3);
+  padding: 15px;
+}
+
+
