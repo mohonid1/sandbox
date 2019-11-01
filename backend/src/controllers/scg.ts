@@ -22,14 +22,14 @@ export const Place: any = async (keyword: string) => {
     const {
         GOOGLE_API_KEY
     } = process.env;
-    
+
     keyword = encodeURI(keyword)
     const response = await fetch(`https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=13.806441,100.528105&radius=1500&type=restaurant&keyword=${keyword}&key=${GOOGLE_API_KEY}`)
     const data = await response.json()
     return data
 }
 
-export const LineSendMessage = async (gkey, linetoken) => {
+export const LineSendMessage = async () => {
 
     const {
         LINE_CHANNEL_TOKEN
