@@ -23,15 +23,28 @@ function Place() {
     const [result, setResult] = useState([]);
     const [hours, setHours] = useState([]);
     const [minutes, setMinutes] = useState([]);
+    const [hour, setHour] = useState('');
+    const [min, setMin] = useState('');
 
     const getRestaurants = (keyword) => {
         fetch(config.apiUrl + `SCG/places/${keyword}`)
         .then(res => res.json())
         .then(json => {
-            console.log('ssss', json)
             setResult(json)
             setCLicks(clicks + 1)
         });
+    }
+
+    const setDetail = () => {
+        const body = {
+            time: hour + min,
+            keyword: keyword
+        }
+        fetch(config.apiUrl + `SCG/setMessageDetail`, {
+            method: 'post',
+            body:    JSON.stringify(body),
+            headers: { 'Content-Type': 'application/json' },
+        })
     }
 
     const mapClicked = (data) => {
@@ -42,14 +55,26 @@ function Place() {
     useEffect(() => {
         const hrs = []
         for (let i=0; i < 24; i++){
-            hrs.push(i)
+            hrs.push(i.toString().padStart(2, '0'))
         }
         setHours(hrs)
         const mins = []
         for (let i=0; i < 60; i++){
-            mins.push(i)
+            mins.push(i.toString().padStart(2, '0'))
         }
         setMinutes(mins)
+
+        fetch(config.apiUrl + `SCG/getMessageDetail`)
+        .then(res => res.json())
+        .then(json => {
+            const { time, keyword } = json
+            setKeyword(keyword)
+            const hr = time.substring(0,2)
+            const mn = time.substring(2,4)
+            setHour(hr)
+            setMin(mn)
+        });
+
     }, []);
 
     return (
@@ -69,7 +94,7 @@ function Place() {
                                 </InputGroup.Prepend>
                                 <FormControl aria-label="Keyword" aria-describedby="inputGroup-sizing-sm" onChange={(e) => setKeyword(e.target.value)} />
                                 <InputGroup.Append>
-                                    <Button variant="secondary" onClick={(e) => getRestaurants(keyword)}>Button</Button>
+                                    <Button variant="secondary" onClick={(e) => getRestaurants(keyword)}>Search</Button>
                                 </InputGroup.Append>
                             </InputGroup>
 
@@ -80,39 +105,40 @@ function Place() {
                         </p>
                         <Row>
                             <Col sm={4}>
-                                <Image src="https://qr-official.line.me/sid/L/687hagig.png" rounded style={{width: '100%'}} />
+                                <Image src={config.lineQrCode} rounded style={{width: '100%'}} />
                             </Col>
                             <Col sm={8}>
                                 <InputGroup size="sm" className="mb-3">
                                     <InputGroup.Prepend>
                                         <InputGroup.Text id="inputGroup-sizing-sm">Keyword</InputGroup.Text>
                                     </InputGroup.Prepend>
-                                    <FormControl aria-label="Keyword" aria-describedby="inputGroup-sizing-sm" onChange={(e) => setKeyword(e.target.value)} />
+                                    <FormControl aria-label="Keyword" aria-describedby="inputGroup-sizing-sm" onChange={(e) => setKeyword(e.target.value)} value={keyword} />
                                 </InputGroup>
                                 <InputGroup size="sm" className="mb-3">
                                     <InputGroup.Prepend>
                                         <InputGroup.Text id="inputGroup-sizing-sm">Time</InputGroup.Text>
                                     </InputGroup.Prepend>
-                                    <FormControl as="select" aria-label="Time" aria-describedby="inputGroup-sizing-sm" onChange={(e) => setKeyword(e.target.value)} >
+                                    <FormControl as="select" aria-label="Time" aria-describedby="inputGroup-sizing-sm" onChange={(e) => setHour(e.target.value)} >
                                         {
                                             hours.map((data) => {
                                                 return (
-                                                    <option value={data}>{data}</option>
+                                                    <option value={data} selected={(hour === data)}>{data}</option>
                                                 )
                                             })
                                         }
                                     </FormControl>
                                     :
-                                    <FormControl as="select" aria-label="Time" aria-describedby="inputGroup-sizing-sm" onChange={(e) => setKeyword(e.target.value)} >
+                                    <FormControl as="select" aria-label="Time" aria-describedby="inputGroup-sizing-sm" onChange={(e) => setMin(e.target.value)} >
                                         {
                                             minutes.map((data) => {
                                                 return (
-                                                    <option value={data}>{data}</option>
+                                                    <option value={data} selected={(min === data)}>{data}</option>
                                                 )
                                             })
                                         }
                                     </FormControl>
                                 </InputGroup>
+                                <Button variant="secondary" onClick={(e) => setDetail()}>Save</Button>
                             </Col>
                         </Row>
                         </Jumbotron>

@@ -8,6 +8,8 @@ import morgan from "morgan"
 import cookieParser from "cookie-parser"
 import cors from "cors"
 
+import RunJob from './controllers/schedule'
+
 // Load .env Enviroment Variables to process.env
 env.load([
     'DB_HOST',
@@ -70,3 +72,5 @@ app.listen(
     PORT,
     () => console.info('Server listening on port ', PORT)
 );
+
+RunJob()
