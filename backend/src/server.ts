@@ -12,10 +12,6 @@ import RunJob from './controllers/schedule'
 
 // Load .env Enviroment Variables to process.env
 env.load([
-    'DB_HOST',
-    'DB_DATABASE',
-    'DB_USER',
-    'DB_PASSWORD',
     'PORT',
     'SECRET_KEY'
 ]);
