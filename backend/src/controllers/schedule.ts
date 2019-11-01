@@ -11,7 +11,6 @@ const RunJob = () => {
         if (now >= sendTime && now < sendTime + 5) {
             LineSendMessage()
         }
-        console.log(now, sendTime);
     });
 }
 

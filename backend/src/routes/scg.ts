@@ -1,20 +1,21 @@
 import express from "express";
+import apicache from 'apicache'
 import SCG, { Formula, Place, LineSendMessage, LineSetDetail } from '../controllers/scg'
 
 const router = express.Router();
-
+const cache = apicache.middleware
 
 // You can require and use your routes here ;)
 
-router.get('/', function (req, res) {
+router.get('/', cache('5 minutes'), function (req, res) {
     res.send(SCG())
 })
 
-router.get('/formula/:index', function (req, res) {
+router.get('/formula/:index', cache('5 minutes'), function (req, res) {
     res.send(Formula(parseInt(req.params.index)).toString())
 })
 
-router.get('/places/:keyword', async function (req, res) {
+router.get('/places/:keyword', cache('5 minutes'), async function (req, res) {
     const places = await Place(req.params.keyword)
     res.send(places.results)
 })
@@ -24,7 +25,7 @@ router.post('/message', async function (req, res) {
     res.sendStatus(status)
 })
 
-router.get('/getMessageDetail', async function (req, res) {
+router.get('/getMessageDetail', function (req, res) {
     const data = { time: process.env.SEND_TIME, keyword: process.env.SEND_KEYWORD }
     res.send(data)
 })
