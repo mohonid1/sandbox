@@ -87,7 +87,7 @@ function Place() {
                     <div className="content">
                         <Jumbotron>
                         <h1>Find Restaurants</h1>
-                        <p>
+                        
                             <InputGroup size="sm" className="mb-3">
                                 <InputGroup.Prepend>
                                     <InputGroup.Text id="inputGroup-sizing-sm">Keyword</InputGroup.Text>
@@ -98,9 +98,10 @@ function Place() {
                                 </InputGroup.Append>
                             </InputGroup>
 
-                        </p>
+                        
+                        
+                        <h2>OR Add Line Friend</h2>
                         <p>
-                            <h2>OR Add Line Friend</h2>
                             to get a random restaurant at the time.
                         </p>
                         <Row>
@@ -118,21 +119,21 @@ function Place() {
                                     <InputGroup.Prepend>
                                         <InputGroup.Text id="inputGroup-sizing-sm">Time</InputGroup.Text>
                                     </InputGroup.Prepend>
-                                    <FormControl as="select" aria-label="Time" aria-describedby="inputGroup-sizing-sm" onChange={(e) => setHour(e.target.value)} >
+                                    <FormControl as="select" aria-label="Time" aria-describedby="inputGroup-sizing-sm" onChange={(e) => setHour(e.target.value)} value={hour} >
                                         {
                                             hours.map((data) => {
                                                 return (
-                                                    <option value={data} selected={(hour === data)}>{data}</option>
+                                                    <option value={data}>{data}</option>
                                                 )
                                             })
                                         }
                                     </FormControl>
                                     :
-                                    <FormControl as="select" aria-label="Time" aria-describedby="inputGroup-sizing-sm" onChange={(e) => setMin(e.target.value)} >
+                                    <FormControl as="select" aria-label="Time" aria-describedby="inputGroup-sizing-sm" onChange={(e) => setMin(e.target.value)} value={min} >
                                         {
                                             minutes.map((data) => {
                                                 return (
-                                                    <option value={data} selected={(min === data)}>{data}</option>
+                                                    <option value={data}>{data}</option>
                                                 )
                                             })
                                         }

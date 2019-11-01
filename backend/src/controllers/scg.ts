@@ -9,7 +9,9 @@ const SCG = () => {
     'Indexes :\n' +
     '- /formula/:number' + 
     '- /places/:keyword' + 
-    '- /message'
+    '- /message' +
+    '- /getMessageDetail' +
+    '- /setMessageDetail'
 }
 
 export const Formula = (n: number) => {
